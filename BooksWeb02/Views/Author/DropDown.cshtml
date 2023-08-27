@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Author>
+
+
+<select>
+    @foreach(var author in Model){
+        <option value="@author">@author.Name</option>
+    }
+</select>

@@ -1,0 +1,37 @@
+﻿<link rel="stylesheet" href="~/css/favourite.css" asp-append-version="true" />
+
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+}
+
+<div class="container">
+    <h2 class="favorite-heading">My Favorites</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Book Name</th>
+                <th>Satus</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579166893i/50513522.jpg" alt="favorite1" width="100">
+                </td>
+                <td class="bookName">The Accursed God</td>
+                <td class="status">"Reading"</td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://m.media-amazon.com/images/I/81m1s4wIPML._AC_UY327_FMwebp_QL65_.jpg" alt="favorite1" width="100" class="bookImage">
+                </td>
+                <td class="bookName">Harry Potter and the Philosophers stone</td>
+                <td class="status">"Eager to Buy"</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</div>

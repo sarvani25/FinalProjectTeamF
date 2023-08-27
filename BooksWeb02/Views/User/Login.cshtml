@@ -1,0 +1,25 @@
+﻿@using BooksWeb02.ViewModels;
+@model LoginUserViewModel
+
+<link rel="stylesheet" href="~/css/login_register.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+
+@section LoginHeaderOptions{
+    <h1 class="left-heading"><a asp-area="" asp-controller="Home" asp-action="Index">BooksWeb</a></h1>
+
+
+}
+<div class="container">
+
+    <h2>LOGIN</h2>
+    <form asp-action="login" method="post">
+
+        <label asp-for=@Model.Email>Email:</label>
+        <input type="text"  name="Email" value="@Model.Email" placeholder="Please Enter Your Email" required>
+        <label asp-for=@Model.Password>Password:</label>
+        <input type="password" name="Password" value="@Model.Password" placeholder="Please Enter Your Password" required>
+        <!-- <input type="submit" value="Login"> -->
+        <input type="submit" value="LOGIN" class='btn btn-primary form-control' />
+    </form>
+    <p> Don't have an account? <a asp-controller="user" asp-action="register" class="anchor"> Sign Up Here</a></p>
+</div>

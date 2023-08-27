@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ConceptArchitect.BookManagement.Author>
+<link rel="stylesheet" href="~/css/allAuthors.css" asp-append-version="true" />
+
+
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+}
+
+<h2 class="index-author-heading">Beyond the covers: Faces of Book Authors</h2>
+
+<div class="row">
+    
+    @foreach (var author in Model)
+    {
+        <div class='col col-md-3 '>
+            <div class="card index-author-card">
+                <a asp-action="details" asp-route-id="@author.Id" class="index-authors">
+                    <img class="card-img-top" src="@author.Photo" alt="Image of an Author">
+                    <div class="card-body">
+                        <h6 class="card-title index-author-title">@author.Name</h6>
+                    </div>
+                </a>
+                   @* <a asp-action="edit" asp-route-id="@author.Id" class="btn  btn-primary">Edit</a>
+                      <a asp-action="Delete" asp-route-id="@author.Id" class="btn  btn-primary">Delete</a>*@
+            </div>
+        </div>
+    }
+</div>

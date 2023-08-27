@@ -1,0 +1,77 @@
+﻿body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    background-image: url("https://assets.brightspot.abebooks.a2z.com/dims4/default/524278d/2147483647/strip/false/crop/800x450+0+75/resize/1200x675!/quality/90/?url=http%3A%2F%2Fabebooks-brightspot.s3.amazonaws.com%2F26%2F2e%2F1bbe418e42cca71a1bffff370175%2Fpromo-value-of-oldbooks.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.container {
+    position: fixed;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 7px 0px rgba(0, 0, 0, 0.50);
+}
+
+
+h2 {
+    text-align: center;
+    color: #006bd3;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 97%;
+    padding: 10px;
+    margin: 5px 5px;
+    margin-top: 5px;
+    border: 1px solid #006bd3;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: 1px solid #006bd3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.anchor {
+    color: #006bd3 !important;
+}
+
+.anchor:hover{
+    text-decoration: underline !important;
+}

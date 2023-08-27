@@ -1,0 +1,34 @@
+﻿.index-author-heading {
+    text-align: center;
+    color: #006bd3;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.index-author-card {
+    margin: 30px 10px;
+    border: 1px solid #006bd3;
+    box-shadow: 10px 10px 5px #0069d148;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+.index-authors {
+    color: #006bd3;
+    font-size: 7rem;
+}
+
+.index-author-card:hover{
+    margin:0;
+}
+
+.index-author-title {
+    font-weight:600;
+}
+
+.index-author-card img{
+   font-size:1rem;
+}

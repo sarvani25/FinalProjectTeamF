@@ -1,0 +1,7 @@
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.exe.config
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.exe
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\bin\Debug\BooksManagmentConsole.pdb
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.AssemblyReference.cache
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.csproj.CoreCompileInputs.cache
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.exe
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\BooksManagmentConsole\obj\Debug\BooksManagmentConsole.pdb

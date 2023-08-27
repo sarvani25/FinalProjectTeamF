@@ -1,0 +1,73 @@
+﻿.container{
+    margin-left:
+}
+
+.index-home-container {
+    width: 132% !important;
+    height: 450px;
+    margin-top:20px;
+    margin-left:-183px
+}
+
+.index-home-slider {
+    height: 450px;
+    background-color: #006bd3;
+}
+
+.carousel-control {
+    opacity: .4 !important;
+}
+
+.glyphicon {
+    color: white;
+    opacity: .9 !important;
+}
+
+.slider-items {
+    /* background: url('https://tse1.mm.bing.net/th/id/OIP.Jr2VmrArzTsFjmYXrnp8ugHaEo?w=279&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')no-repeat center;
+    background: url('https://tse3.mm.bing.net/th/id/OIP.PyfZwoKhTw99bxJBn06d7gHaEo?w=279&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')no-repeat center;
+    background: url('https://tse4.mm.bing.net/th/id/OIP.yvmdKuw9ZZIfjJ-jgKGUWQHaFj?w=270&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7')no-repeat center; */
+    /* background-size: 100%; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-container {
+    display: flex;
+}
+
+.book {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.slider h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 7rem;
+    padding-left: 20px;
+}
+
+.header {
+    overflow: auto; /* Clear floats */
+}
+
+.header img {
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;
+    border-radius: 50px;
+}
+
+.explore:hover{
+    color:whitesmoke;
+    font-size:42px;
+}

@@ -1,0 +1,31 @@
+﻿@using ConceptArchitect.BookManagement
+@model Review
+
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+}
+
+<h2>Add Review</h2>
+
+<div asp-validation-summary="All" class="text text-danger"></div>
+
+<form asp-controller="Review" asp-action="AddReview" method="POST">
+
+    <label class="form-label">Email</label>
+    <input type="text" name="Title" value="@ViewBag.Email" class="form-control" />
+
+    <label asp-for=@Model.bookId class="form-label">Book ID</label>
+    <input type="text" name="bookId" value="@Model.bookId" class="form-control" />
+
+    <label asp-for=@Model.Rating class="form-label">Rating (0 to 5)</label>
+    <input type="text" name="Rating" value="@Model.Rating" class="form-control" />
+
+
+    <label asp-for=@Model.Title class="form-label">Title</label>
+    <input type="text" name="Title" value="@Model.Title" class="form-control" />
+
+    <div>
+        <input type="submit" value="Add Review" class="btn btn-primary form-control" />
+    </div>
+
+</form>

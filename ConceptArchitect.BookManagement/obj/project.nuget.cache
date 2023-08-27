@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "zxGouGzaReOv+1ubRn3rp1MB/OchuKF7+XIS24vjWiuc+TZzA7L/BMCwyJQaNpr29AiZRKlvUGA/qS7ev5Zy0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shettsa\\BookWebApp\\202307-ecolab-cs-main\\cs-projects\\BooksManagementApp\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shettsa\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DataAnnotationsExtensions 5.0.1.27' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DataAnnotationsExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

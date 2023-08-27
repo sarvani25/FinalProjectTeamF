@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+<link rel="stylesheet" href="~/css/slider.css" asp-append-version="true"/>
+
+@section LoginHeaderOptions{
+    <h1 class="left-heading"><a asp-area="" asp-controller="Home" asp-action="Index">BooksWeb</a></h1>
+
+    <h2 class="subheading login"><a asp-controller="user" asp-action="login">Login</a></h2>
+    <h2 class="subheading register"><a asp-controller="user" asp-action="register">Register</a></h2>
+
+}
+
+
+
+<div class="index-home-container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner slider index-home-slider">
+            <div class="item active">
+                <div class="slider-container">
+                    <div class="slider-items">
+                        <h1>New Releases</h1>
+                        <div class="book-container">
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/412eqQc7WNL._SY346_.jpg" alt="" width="220px">
+                                    <h5>Manas</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/81c-qj2VZSL._AC_UY327_FMwebp_QL65_.jpg" alt="" width="220">
+                                    <h5>The Accursed God</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/81kYLKZ+WoL._AC_UY327_FMwebp_QL65_.jpg" alt="" width="230">
+                                    <h5>kurukshetra</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="slider-container">
+                    <div class="slider-items">
+                        <h1>Best Authors</h1>
+                        <div class="book-container">
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/8tf5spo4ri40bkl7hrvrd7t4q9._SX450_.jpg" alt="author1" width="220px">
+                                    <h5>Jeffrey Archer</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/8cigckin175jtpsk3gs361r4ss._SX450_.jpg" alt="author2" width="220" style="height:21rem;">
+                                    <h5>J.K. Rowling</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/2fuqj5h433n56ucdr3s5j1k2j9._SX450_.jpg" alt="author3" width="220" style="height: 21rem;">
+                                    <h5>Vivek Dutta Mishra</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="slider-container">
+                    <div class="slider-items">
+                        <h1>Best Books</h1>
+                        <div class="book-container">
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/81HAATfZ5IL._AC_UY327_FMwebp_QL65_.jpg" alt="" width="220px">
+                                    <h5>Kane and Abel</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/81S0LnPGGUL._AC_UY327_FMwebp_QL65_.jpg" alt="" width="220">
+                                    <h5>Harry Potter and the Chambers of Secret</h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="book">
+                                    <img src="https://m.media-amazon.com/images/I/81m1s4wIPML._AC_UY327_FMwebp_QL65_.jpg" alt="" width="220">
+                                    <h5>Harry Potter and the Philosophers stone</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+

@@ -1,0 +1,38 @@
+﻿@using ConceptArchitect.BookManagement
+@model Book
+<link rel="stylesheet" href="~/css/book_details.css" asp-append-version="true" />
+
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+}
+
+<h2 class="book-detail-heading">Book</h2>
+<hr />
+
+@*<div class='row'>
+    <div class='col col-md-4'>
+        <img src="@Model.Photo" class="author-details-photo"/>
+    </div>
+
+    <div class='col col-md-8'>
+        <h3>Biography</h3>
+        <p>@Model.Biography</p>
+    </div>
+    <a asp-action="edit" class="btn  btn-primary">Edit</a>
+</div>*@
+
+<div class="row book-detail-container">
+    <div class='col col-md-6 book-details-image-div'>
+        <img class="book-details-image" src="@Model.CoverPhoto" alt="Card image cap" width="200" height="300">
+    </div>
+    <div class='col col-md-6  book-detail-body'>
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">@Model.Description</p>
+        <a asp-action="edit" asp-route-id="@Model.Id" class="btn btn-outline-success">Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class=" btn btn-outline-danger">Delete</a>
+@*         <a asp-action="Review" asp-route-id="@Model.Id" class="btn btn-outline-success">Reviews</a>
+ *@        <a asp-controller = "Review" asp-action="AddReview" asp-route-id="@Model.Id" class="btn btn-outline-success">Add Review</a>
+
+    </div>
+</div>
+

@@ -1,0 +1,20 @@
+﻿@using ConceptArchitect.BookManagement
+@model User
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+    
+}
+
+<div class="body" style="padding:1rem!important;">
+    <div class="header">
+        <h1 style="text-align: left;
+    font-size: 40px;
+    font-family: fantasy; ">
+            <a asp-controller="Book" asp-action="Index" class="explore">Explore Your Favourite Books</a>
+        </h1>
+        <img src="https://www.sanskritischools.com/blog/wp-content/uploads/2017/10/library-sanskriti.jpg"
+             alt="library" />
+    </div>
+</div>
+
+@Html.Partial("~/Views/Home/Index.cshtml")

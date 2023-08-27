@@ -1,0 +1,11 @@
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.deps.json
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\bin\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfoInputs.cache
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.AssemblyInfo.cs
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.csproj.CoreCompileInputs.cache
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.dll
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\refint\ConceptArchitect.Utils.dll
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ConceptArchitect.Utils.pdb
+C:\Users\shettsa\BookWebApp\202307-ecolab-cs-main\cs-projects\BooksManagementApp\ConceptArchitect.Utils\obj\Debug\net6.0\ref\ConceptArchitect.Utils.dll

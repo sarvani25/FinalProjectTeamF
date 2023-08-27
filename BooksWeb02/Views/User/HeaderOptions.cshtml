@@ -1,0 +1,17 @@
+﻿
+<link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+
+
+<h1 class="left-heading"><a asp-area="" asp-controller="User" asp-action="Index">BooksWeb</a></h1>
+
+<h2 class="subheading"><a asp-controller="author" asp-action="index">Authors</a></h2>
+<h2 class="subheading"><a  asp-controller="author" asp-action="add">Add Author</a></h2>
+<h2 class="subheading"><a asp-controller="book" asp-action="index">Books</a></h2>
+<h2 class="subheading"><a  asp-controller="book" asp-action="add">Add Book</a></h2>
+<h2 class="subheading"><a  asp-controller="Favourite" asp-action="Index">My Favourites</a></h2>
+
+<h2 class="subheading home"><a asp-controller="user" asp-action="Index">Home</a></h2>
+
+<h2 class="subheading logout"><a asp-controller="user" asp-action="logout">Logout</a></h2>
+
+<h2 class="subheading username">@ViewBag.User?.Name</h2>

@@ -1,0 +1,49 @@
+﻿@using BooksWeb02.ViewModels;
+@model EditAuthorViewModel
+<link rel="stylesheet" href="~/css/addAuthor.css" asp-append-version="true" />
+
+@section UserHeaderOptions{
+    @Html.Partial("~/Views/User/HeaderOptions.cshtml")
+}
+
+<div class="add-author-container">
+    <div asp-validation-summary="All" class="text text-danger error-message"></div>
+    <h2>Edit Author</h2>
+    <form asp-action="Edit" method="POST" class="add-author-form">
+
+        <div class="add-author-input-container">
+            <input type='text' name="Id" value="@Model.Id" class='add-author-input-field' />
+            <label asp-for="@Model.Id" class='add-author-label'>Id</label>
+        </div>
+
+        <div class="add-author-input-container">
+            <input type='text' name="Name" value="@Model.Name" class='add-author-input-field' />
+            <label asp-for="@Model.Name" class='add-author-label'>Name</label>
+        </div>
+
+        @* <label asp-for="@Model.BirthDate" class='form-label'>Birth Date</label>
+        <input type='text' name="BirthDate" value="@Model.BirthDate" class='form-control' />*@
+
+        <div class="add-author-input-container">
+            <input type="text" name="biography" value="@Model.Biography" class='add-author-input-field'></input>
+            <label asp-for="@Model.Biography" class='add-author-label'>Biography</label>
+        </div>
+
+        <div class="add-author-input-container">
+            <input type='text' name="email" value="@Model.Email" class='add-author-input-field' />
+            <label asp-for="@Model.Email" class='add-author-label'>Email</label>
+        </div>
+
+        <div class="add-author-input-container">
+            <input type='text' name="photo" value="@Model.Photo" class='add-author-input-field' />
+            <label asp-for="@Model.Photo" class='add-author-label'>Photo</label>
+        </div>
+
+
+
+        <div>
+
+            <input type="submit" value="Update Author" class='btn btn-primary form-control' />
+        </div>
+    </form>
+</div>

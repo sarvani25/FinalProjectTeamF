@@ -1,0 +1,27 @@
+﻿@using ConceptArchitect.BookManagement
+@model User
+
+<link rel="stylesheet" href="~/css/login_register.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+@section LoginHeaderOptions{
+    <h1 class="left-heading"><a asp-area="" asp-controller="Home" asp-action="Index">BooksWeb</a></h1>
+
+
+}
+
+    <div class="container">
+        <h2>REGISTER</h2>
+        <form asp-action="register" method="post">
+            <label asp-for=@Model.Name> Name:</label>
+            <input type="text" name="Name" value="@Model.Name" placeholder="Please Enter Your Name" required>
+
+            <label asp-for=@Model.Email> Email :</label>
+            <input type="text" name="Email" value="@Model.Email" placeholder="Please Enter Your Email" required>
+
+            <label asp-for=@Model.Password> Password:</label>
+            <input type="password" minlength="8" maxlength="15" size="8" name="Password" value="@Model.Password" placeholder="Please Enter Your Password" required>
+
+            <input type="submit" value="SIGN UP" class='btn btn-primary form-control'/>
+        </form>
+    <p>Already have an account? <a asp-controller="user" asp-action="login" class="anchor">Login here</a></p>
+    </div>
